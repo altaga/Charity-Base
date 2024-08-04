@@ -1,0 +1,28 @@
+{
+  "name": "charity-base-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@livepeer/react": "^4.2.1",
+    "@mui/material": "^5.16.4",
+    "@web3modal/ethers5": "^5.0.7",
+    "ethers": "^5.7.2",
+    "hls-video-element": "^1.2.7",
+    "livepeer": "^3.2.7",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
