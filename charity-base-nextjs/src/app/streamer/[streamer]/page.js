@@ -165,7 +165,7 @@ export default function Streamer({ params }) {
           }}
         >
           <Link
-            href={`https://explorer.zetachain.com/address/${streamer.publicKey}`}
+            href={`https://base.blockscout.com/address/${streamer.publicKey}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "#ffffff" }}

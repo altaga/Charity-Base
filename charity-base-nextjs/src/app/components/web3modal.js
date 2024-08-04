@@ -12,7 +12,7 @@ const mainnet = {
   chainId: 8453,
   name: "Base",
   currency: "ETH",
-  explorerUrl: "https://basescan.org",
+  explorerUrl: "https://base.blockscout.com",
   rpcUrl: "https://base.llamarpc.com",
 };
 
