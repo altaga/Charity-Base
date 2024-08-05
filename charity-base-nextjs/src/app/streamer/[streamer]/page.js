@@ -87,7 +87,7 @@ export default function Streamer({ params }) {
         );
         const tx = await erc20Contract.transfer(
           streamer.publicKey,
-          parseUnits(amount, 8)
+          parseUnits(amount, 6)
         );
         await tx.wait();
         cryptoSetup();
