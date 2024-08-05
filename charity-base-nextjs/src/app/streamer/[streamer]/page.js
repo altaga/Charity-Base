@@ -195,7 +195,7 @@ export default function Streamer({ params }) {
               color: "#ffffff",
             }}
           >
-            {epsilonRound(formatEther(balanceCharity), 4)} BASE
+            {epsilonRound(formatEther(balanceCharity), 4)} ETH (BASE)
           </div>
         </div>
         <div className="token-container2">
@@ -248,7 +248,7 @@ export default function Streamer({ params }) {
               color: "#ffffff",
             }}
           >
-            {epsilonRound(formatEther(balance), 4)} BASE
+            {epsilonRound(formatEther(balance), 4)} ETH (BASE)
           </div>
         </div>
         <div
