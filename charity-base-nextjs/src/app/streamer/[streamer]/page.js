@@ -211,7 +211,7 @@ export default function Streamer({ params }) {
               color: "#ffffff",
             }}
           >
-            {epsilonRound(formatUnits(balanceBTCCharity, 8), 8)} USDC
+            {epsilonRound(formatUnits(balanceBTCCharity, 6), 8)} USDC
           </div>
         </div>
         <div
